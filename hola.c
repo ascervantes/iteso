@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include "test/test.h"
 
 int main(void)
 {
+test();
  printf("Hola Mundo :)\n");
 }
 void funcion2(void) {
